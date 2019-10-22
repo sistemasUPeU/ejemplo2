@@ -23,4 +23,8 @@ public class HomeController {
 	public String jorge() {
 		return "Hello there. BY: Jorge";
 	}
+	@GetMapping("/johan2")
+	public String zero() {
+		return "Omae mo Shindeyro";
+	}
 }
