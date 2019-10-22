@@ -18,4 +18,9 @@ public class HomeController {
 	public String gabriel() {
 		return "gabriel cosi";
 	}
+	
+	@GetMapping("/jorge")
+	public String jorge() {
+		return "Hello there. BY: Jorge";
+	}
 }
