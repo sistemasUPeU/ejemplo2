@@ -13,4 +13,9 @@ public class HomeController {
 	public String get() {
 		return "esto es una prueba";
 	}
+	
+	@GetMapping("/gabriel")
+	public String gabriel() {
+		return "gabriel cosi";
+	}
 }
